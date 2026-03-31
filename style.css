@@ -12,7 +12,8 @@ html {
 
 body {
   width: 75vw;
-  margin: 5rem 0;
+  margin: 5rem auto;
+  
 }
 
 header {
@@ -51,4 +52,17 @@ p {
   line-height: 1.5rem;
 }
 
+.placement {
+  grid-column: 1;
+  grid-row: 1;
+}
 
+.optimization {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.flexibility {
+  grid-column: 1;
+  grid-row: 3;
+}
