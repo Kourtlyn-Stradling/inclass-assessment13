@@ -34,11 +34,17 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 250px);
   grid-template-rows: repeat(3, 250px);
+  gap: 10px;
 }
 
 section {
-  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px 30px 15px;
   background-color: #A5BAC9;
+  border-radius: 5px;
 }
 
 h2 {
