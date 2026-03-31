@@ -106,3 +106,25 @@ p {
   grid-row: 3;
   border-radius: 5px;
 }
+
+a:link {
+  color: #00263E;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:visited {
+  color: #4E738A;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #F5A800;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:active {
+  color: #007DB4;
+}
